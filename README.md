@@ -22,4 +22,4 @@ Schematic heavily based on the business card design by thirtythreeforty (https:/
 |PCB|Schematic|
 |---|---|
 |![PCB Front](images/pcbf.png)|![Schematic](images/schematic.png)|
-|![PCB Back](images/pcbb.png)|-|  
+|![PCB Back](images/pcbb.png)||  

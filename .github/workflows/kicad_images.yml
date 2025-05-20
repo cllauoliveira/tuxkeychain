@@ -27,7 +27,8 @@ jobs:
 
       - name: Generate Images
         run: |
-          kicad-cli pcb render --output=images/pcbf.png --side=bottom tuxkeychain.kicad_pcb
+          rm images/* || true
+          kicad-cli pcb render --output=images/pcbf.png --side=top tuxkeychain.kicad_pcb
           kicad-cli pcb render --output=images/pcbb.png --side=bottom tuxkeychain.kicad_pcb
           kicad-cli sch export pdf --output=/tmp/schematic.pdf tuxkeychain.kicad_sch
 
