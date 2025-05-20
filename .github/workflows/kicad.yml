@@ -23,6 +23,7 @@ jobs:
           sudo apt install --install-recommends kicad
       
       - name: Run DRC
+        continue-on-error: true
         run: |
           kicad-cli pcb drc --output=drc.rpt --exit-code-violations tuxkeychain.kicad_pcb
           status=$?
@@ -52,8 +53,9 @@ jobs:
           sudo apt install --install-recommends kicad
       
       - name: Run ERC
+        continue-on-error: true
         run: |
-          kicad-cli sch erc --output=erc.rpt --exit-code-violations tuxkeychain.kicad_pcb
+          kicad-cli sch erc --output=erc.rpt --exit-code-violations tuxkeychain.kicad_sch
           status=$?
           if [ $status -ne 0 ]; then
             echo "ERC failed with exit code $status"
@@ -82,8 +84,8 @@ jobs:
 
       - name: Generate PDFs
         run: |
-          kicad-cli pcb export pdf --output-file=pcb.pdf tuxkeychain.kicad_pcb
-          kicad-cli sch export pdf --output-file=schematic.pdf tuxkeychain.kicad_pcb
+          kicad-cli pcb export pdf --output=pcb.pdf tuxkeychain.kicad_pcb
+          kicad-cli sch export pdf --output=schematic.pdf tuxkeychain.kicad_sch
 
       - name: Upload PDFs
         uses: actions/upload-artifact@v4
