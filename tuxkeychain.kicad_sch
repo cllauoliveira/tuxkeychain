@@ -5100,6 +5100,16 @@
 		)
 		(uuid "33a832fa-3a29-42ef-b9ee-7340af6bccd1")
 	)
+	(text "TODO: add a unsoldered SMT header for hacking potential"
+		(exclude_from_sim no)
+		(at 247.015 164.465 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "34c68bc5-27a9-4681-ae0a-17e04c1715fa")
+	)
 	(text "it took like 20 minutes of research on if\ni should ground shield to end up just using a jumper fml"
 		(exclude_from_sim no)
 		(at 64.135 186.69 0)
