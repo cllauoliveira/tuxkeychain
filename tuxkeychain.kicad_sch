@@ -2093,9 +2093,8 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_FET:Q_NMOS_GSD"
+		(symbol "Transistor_FET:2N7002"
 			(pin_names
-				(offset 0)
 				(hide yes)
 			)
 			(exclude_from_sim no)
@@ -2110,7 +2109,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "Q_NMOS_GSD"
+			(property "Value" "2N7002"
 				(at 5.08 0 0)
 				(effects
 					(font
@@ -2119,16 +2118,28 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
-				(at 5.08 2.54 0)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
+				(at 5.08 -3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2137,7 +2148,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "N-MOSFET transistor, gate/source/drain"
+			(property "ki_keywords" "N-Channel Switching MOSFET"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2146,7 +2157,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET"
+			(property "ki_fp_filters" "SOT?23*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2155,7 +2166,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Q_NMOS_GSD_0_1"
+			(symbol "2N7002_0_1"
 				(polyline
 					(pts
 						(xy 0.254 1.905) (xy 0.254 -1.905)
@@ -2299,7 +2310,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.921 0.381) (xy 3.683 0.381)
+						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
 					)
 					(stroke
 						(width 0)
@@ -2322,7 +2333,7 @@
 					)
 				)
 			)
-			(symbol "Q_NMOS_GSD_1_1"
+			(symbol "2N7002_1_1"
 				(pin input line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -5101,7 +5112,7 @@
 	)
 	(text "maybe we can save costs by removing this polyfuse,\nsure maybe itll fry someones devices but thats\ntheir fucking problem"
 		(exclude_from_sim no)
-		(at 93.345 17.145 0)
+		(at 92.71 16.51 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5118,6 +5129,16 @@
 			)
 		)
 		(uuid "479a2a0c-a81a-4bd0-ab76-8a85c622aeda")
+	)
+	(text "crystal that we use: CF4024M00012001"
+		(exclude_from_sim no)
+		(at 264.795 13.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4e4e805a-c8ff-47dc-b81b-c3bd5469bb78")
 	)
 	(text "you *probably* dont need to open it\nbut its just for prototype failsafe"
 		(exclude_from_sim no)
@@ -5151,7 +5172,7 @@
 	)
 	(text "TODO: move this the fuck out of here\nthis doesnt belong in a fucking\ncorner theres a reason global labels exist"
 		(exclude_from_sim no)
-		(at 242.57 16.51 0)
+		(at 227.965 20.955 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7385,7 +7406,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 274.32 32.7152 0)
 			(effects
 				(font
@@ -7497,80 +7518,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:Q_NMOS_GSD")
-		(at 179.07 146.05 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "05a47be5-c948-45b8-a44b-5d18ea953965")
-		(property "Reference" "Q1"
-			(at 172.72 144.7799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Q_NMOS_GSD"
-			(at 172.72 147.3199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 173.99 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 179.07 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, gate/source/drain"
-			(at 179.07 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c6931893-74f5-4d1b-aaf6-733986b728c6")
-		)
-		(pin "2"
-			(uuid "40d4f886-4b00-4852-bd2f-007a541e57ef")
-		)
-		(pin "3"
-			(uuid "c81a6c73-d874-4b0b-93d3-bdb062134dfd")
-		)
-		(instances
-			(project ""
-				(path "/b08030bf-1ef2-4626-81f6-c1cc66f6d9b4"
-					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 101.6 123.19 0)
 		(unit 1)
@@ -7662,7 +7609,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 78.4352 69.85 0)
 			(effects
 				(font
@@ -8129,7 +8076,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 274.32 23.1648 0)
 			(effects
 				(font
@@ -8199,7 +8146,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 99.822 138.43 90)
 			(effects
 				(font
@@ -8334,7 +8281,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 73.66 59.69 0)
 			(effects
 				(font
@@ -8437,6 +8384,83 @@
 			(project "tuxkeychain"
 				(path "/b08030bf-1ef2-4626-81f6-c1cc66f6d9b4"
 					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:2N7002")
+		(at 179.07 146.05 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "255868be-a889-491c-bbab-c2b74b593bac")
+		(property "Reference" "Q2"
+			(at 172.72 144.7799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N7002"
+			(at 172.72 147.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 173.99 147.955 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
+			(at 173.99 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+			(at 179.07 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "30ff2a0e-e1fe-4f22-98ec-a7fa933716ad")
+		)
+		(pin "2"
+			(uuid "034a69f3-8234-437a-8b91-39a9f6b43a96")
+		)
+		(pin "3"
+			(uuid "b57bd6b0-ea12-4ed7-9db1-1bdd06e8ad3b")
+		)
+		(instances
+			(project ""
+				(path "/b08030bf-1ef2-4626-81f6-c1cc66f6d9b4"
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -8932,7 +8956,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 96.52 114.3 0)
 			(effects
 				(font
@@ -9002,7 +9026,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 70.358 41.91 90)
 			(effects
 				(font
@@ -9071,7 +9095,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 96.52 111.76 0)
 			(effects
 				(font
@@ -9132,7 +9156,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "B3U-1000P"
 			(at 227.33 152.3999 90)
 			(effects
 				(font
@@ -9141,7 +9165,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-1000P"
 			(at 228.6 151.13 0)
 			(effects
 				(font
@@ -9343,7 +9367,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 225.298 142.24 90)
 			(effects
 				(font
@@ -9402,7 +9426,7 @@
 				)
 			)
 		)
-		(property "Value" "Polyfuse"
+		(property "Value" "SMD0805B050TF"
 			(at 60.96 17.78 90)
 			(effects
 				(font
@@ -9410,7 +9434,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuse_0805_2012Metric"
 			(at 66.04 20.32 0)
 			(effects
 				(font
@@ -9480,7 +9504,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 48.26 111.76 0)
 			(effects
 				(font
@@ -9615,7 +9639,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 70.358 87.63 90)
 			(effects
 				(font
@@ -9685,7 +9709,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 40.3352 45.72 0)
 			(effects
 				(font
@@ -9908,7 +9932,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 48.26 116.84 0)
 			(effects
 				(font
@@ -9977,7 +10001,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 48.26 109.22 0)
 			(effects
 				(font
@@ -10047,7 +10071,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 132.842 166.37 90)
 			(effects
 				(font
@@ -10249,7 +10273,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 73.66 35.56 0)
 			(effects
 				(font
@@ -10319,7 +10343,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 203.708 142.24 90)
 			(effects
 				(font
@@ -10386,7 +10410,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 195.58 138.43 0)
 			(effects
 				(font
@@ -10606,7 +10630,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 97.79 131.318 90)
 			(effects
 				(font
@@ -10675,7 +10699,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 48.26 127 0)
 			(effects
 				(font
@@ -11204,7 +11228,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 96.52 109.22 0)
 			(effects
 				(font
@@ -11799,7 +11823,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 48.26 119.38 0)
 			(effects
 				(font
@@ -11935,7 +11959,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 73.66 36.322 90)
 			(effects
 				(font
@@ -12005,7 +12029,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 73.66 82.042 90)
 			(effects
 				(font
@@ -12150,7 +12174,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 73.66 81.28 0)
 			(effects
 				(font
@@ -12492,7 +12516,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 78.4352 45.72 0)
 			(effects
 				(font
@@ -12562,7 +12586,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 70.358 66.04 90)
 			(effects
 				(font
@@ -12699,7 +12723,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 73.66 60.452 90)
 			(effects
 				(font
@@ -12767,7 +12791,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 184.15 140.208 90)
 			(effects
 				(font
@@ -12968,7 +12992,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 48.26 114.3 0)
 			(effects
 				(font
@@ -13102,7 +13126,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 96.52 127 0)
 			(effects
 				(font
@@ -13239,7 +13263,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 33.3248 45.72 0)
 			(effects
 				(font
@@ -13374,7 +13398,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 78.4352 91.44 0)
 			(effects
 				(font
@@ -13441,7 +13465,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
 			(at 264.16 27.94 0)
 			(effects
 				(font
@@ -13516,7 +13540,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 96.52 119.38 0)
 			(effects
 				(font

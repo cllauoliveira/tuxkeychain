@@ -37,3 +37,6 @@ production/
 # lock files
 *.lck 
 *.lock
+
+# more kicad bullshit
+[#]auto_saved_files[#]
