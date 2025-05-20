@@ -1,0 +1,92 @@
+name: KiCad CI
+
+on:
+  push:
+    branches: [ $default-branch ]
+  pull_request:
+    branches: [ $default-branch ]
+
+jobs:
+  drc:
+    name: Check PCB DRC
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install KiCad 9.0
+        run: |
+          sudo add-apt-repository --yes ppa:kicad/kicad-9.0-releases
+          sudo apt update
+          sudo apt install --install-recommends kicad
+      
+      - name: Run DRC
+        run: |
+          kicad-cli pcb drc --output-file=drc.rpt --exit-code-violations tuxkeychain.kicad_pcb
+          status=$?
+          if [ $status -ne 0 ]; then
+            echo "DRC failed with exit code $status"
+            cat drc.rpt
+            exit $status
+          fi
+
+      - name: Upload DRC Report
+        uses: actions/upload-artifact@v4
+        with:
+          name: drc-report
+          path: drc.rpt
+
+  erc:
+    name: Check Schematic ERC
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install KiCad 9.0
+        run: |
+          sudo add-apt-repository --yes ppa:kicad/kicad-9.0-releases
+          sudo apt update
+          sudo apt install --install-recommends kicad
+      
+      - name: Run ERC
+        run: |
+          kicad-cli sch erc --output-file=erc.rpt --exit-code-violations tuxkeychain.kicad_pcb
+          status=$?
+          if [ $status -ne 0 ]; then
+            echo "ERC failed with exit code $status"
+            cat erc.rpt
+            exit $status
+          fi
+
+      - name: Upload ERC Report
+        uses: actions/upload-artifact@v4
+        with:
+          name: erc-report
+          path: erc.rpt
+  
+  pdf:
+    name: Generate PDFs
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install KiCad 9.0
+        run: |
+          sudo add-apt-repository --yes ppa:kicad/kicad-9.0-releases
+          sudo apt update
+          sudo apt install --install-recommends kicad
+
+      - name: Generate PDFs
+        run: |
+          kicad-cli pcb export pdf --output-file=pcb.pdf tuxkeychain.kicad_pcb
+          kicad-cli sch export pdf --output-file=schematic.pdf tuxkeychain.kicad_pcb
+
+      - name: Upload PDFs
+        uses: actions/upload-artifact@v4
+        with:
+          name: pdfs
+          path: |
+            pcb.pdf
+            schematic.pdf
