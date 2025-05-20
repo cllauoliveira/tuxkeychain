@@ -1717,7 +1717,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Memory_Flash:AT25SF081-SSHD-X"
+		(symbol "Memory_Flash:W25Q128JVS"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1729,16 +1729,16 @@
 					)
 				)
 			)
-			(property "Value" "AT25SF081-SSHD-X"
-				(at 11.43 11.43 0)
+			(property "Value" "W25Q128JVS"
+				(at 7.62 11.43 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-				(at 0 -15.24 0)
+			(property "Footprint" "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm"
+				(at 0 22.86 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1746,7 +1746,25 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.adestotech.com/wp-content/uploads/DS-AT25SF081_045.pdf"
+			(property "Datasheet" "https://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf"
+				(at 0 25.4 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "128Mbit / 16MiB Serial Flash Memory, Standard/Dual/Quad SPI, 2.7-3.6V, SOIC-8"
+				(at 0 27.94 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flash memory SPI QPI DTR"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1755,7 +1773,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "8-Mbit, 2.5V Minimum SPI Serial Flash Memory with Dual-I/O and Quad-I/O Support, SOIC-8"
+			(property "ki_fp_filters" "*SOIC*5.3x5.3mm*P1.27mm*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1764,28 +1782,10 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "SPI DSPI QSPI 8Mbit 2.5V"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOIC?8*3.9x4.9mm*P1.27mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "AT25SF081-SSHD-X_0_1"
+			(symbol "W25Q128JVS_0_1"
 				(rectangle
 					(start -7.62 10.16)
-					(end 7.62 -10.16)
+					(end 10.16 -10.16)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1795,7 +1795,7 @@
 					)
 				)
 			)
-			(symbol "AT25SF081-SSHD-X_1_1"
+			(symbol "W25Q128JVS_1_1"
 				(pin input line
 					(at -10.16 7.62 0)
 					(length 2.54)
@@ -1817,7 +1817,7 @@
 				(pin input line
 					(at -10.16 5.08 0)
 					(length 2.54)
-					(name "SCK"
+					(name "CLK"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1835,7 +1835,7 @@
 				(pin bidirectional line
 					(at -10.16 2.54 0)
 					(length 2.54)
-					(name "SI/IO0"
+					(name "DI/IO_{0}"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1853,7 +1853,7 @@
 				(pin bidirectional line
 					(at -10.16 0 0)
 					(length 2.54)
-					(name "SO/IO1"
+					(name "DO/IO_{1}"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1871,7 +1871,7 @@
 				(pin bidirectional line
 					(at -10.16 -2.54 0)
 					(length 2.54)
-					(name "~{WP}/IO2"
+					(name "~{WP}/IO_{2}"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1889,7 +1889,7 @@
 				(pin bidirectional line
 					(at -10.16 -5.08 0)
 					(length 2.54)
-					(name "~{HOLD}/IO3"
+					(name "~{HOLD}/~{RESET}/IO_{3}"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5190,16 +5190,6 @@
 		)
 		(uuid "94c77881-4998-47c1-8631-c17811c79ec7")
 	)
-	(text "sshd reference\n"
-		(exclude_from_sim no)
-		(at 161.29 182.245 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "bbc1cb5b-217f-43d9-b21c-eebd3236dd44")
-	)
 	(text "maybe they are\ncursed, or maybe\nthe designer was\nlazy.\nTODO: exorcism\n"
 		(exclude_from_sim no)
 		(at 269.24 109.22 0)
@@ -5227,6 +5217,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "153f86f7-1925-4fc2-8584-4023d3de2b79")
+	)
+	(junction
+		(at 135.89 182.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1adc6dbb-1bda-4b90-970e-dbf2e6519795")
 	)
 	(junction
 		(at 77.47 78.74)
@@ -5557,12 +5553,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e7a422ad-742b-4e84-b5bd-7a2b4890c130")
-	)
-	(junction
-		(at 135.89 182.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e87c11cc-7e15-4437-94fa-6a0820d1b34c")
 	)
 	(junction
 		(at 77.47 62.23)
@@ -9762,94 +9752,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Memory_Flash:AT25SF081-SSHD-X")
-		(at 146.05 177.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "57dbc446-0648-40d3-8e3a-9688401473ec")
-		(property "Reference" "U5"
-			(at 154.94 176.5299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "AT25SF081B-SSHD-T"
-			(at 154.94 179.0699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 146.05 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.adestotech.com/wp-content/uploads/DS-AT25SF081_045.pdf"
-			(at 146.05 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "8-Mbit, 2.5V Minimum SPI Serial Flash Memory with Dual-I/O and Quad-I/O Support, SOIC-8"
-			(at 146.05 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7534e5f8-199b-4e95-9542-c467657ff9f5")
-		)
-		(pin "2"
-			(uuid "3e5d0e2d-1d09-4338-b0d5-b1a965e1c106")
-		)
-		(pin "7"
-			(uuid "cb20925e-f244-4818-b201-31cd8a7c01e6")
-		)
-		(pin "3"
-			(uuid "e5f39a15-1437-4c97-9ff4-d1ee58c9dbfd")
-		)
-		(pin "5"
-			(uuid "0be1d95d-884f-44e0-8e21-72e85b88f403")
-		)
-		(pin "6"
-			(uuid "63709de6-d9bd-4818-81c2-003e79bc8a90")
-		)
-		(pin "4"
-			(uuid "c566b1ac-5d65-4646-93ca-d69499e8a12b")
-		)
-		(pin "8"
-			(uuid "967488f2-6735-47cf-89bd-867451db3790")
-		)
-		(instances
-			(project ""
-				(path "/b08030bf-1ef2-4626-81f6-c1cc66f6d9b4"
-					(reference "U5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 69.85 142.24 0)
 		(unit 1)
@@ -11407,6 +11309,94 @@
 			(project "tuxkeychain"
 				(path "/b08030bf-1ef2-4626-81f6-c1cc66f6d9b4"
 					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Memory_Flash:W25Q128JVS")
+		(at 146.05 177.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9631d4e7-c116-4b1c-9088-2abcfc1b4a36")
+		(property "Reference" "U6"
+			(at 157.48 176.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "W25Q128JVS"
+			(at 157.48 179.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm"
+			(at 146.05 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf"
+			(at 146.05 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "128Mbit / 16MiB Serial Flash Memory, Standard/Dual/Quad SPI, 2.7-3.6V, SOIC-8"
+			(at 146.05 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "7e45a2c8-5e38-497a-9f5a-116c18a6a04e")
+		)
+		(pin "6"
+			(uuid "c0596e68-a9d8-4daa-a81a-41d58a5fd336")
+		)
+		(pin "3"
+			(uuid "8c1b253f-7d26-4a1a-aa36-630b4d2c25df")
+		)
+		(pin "5"
+			(uuid "864bfb02-0836-4981-8e09-223a505ba1db")
+		)
+		(pin "7"
+			(uuid "ec90b954-9342-4a0b-8f58-d9fd20be29c7")
+		)
+		(pin "2"
+			(uuid "36677944-777d-4012-b538-6353033446b9")
+		)
+		(pin "8"
+			(uuid "fe13b8a4-1f3a-4ebc-9009-a29947b5271c")
+		)
+		(pin "1"
+			(uuid "0f2e5c44-ee66-41ce-a436-6b3984597892")
+		)
+		(instances
+			(project ""
+				(path "/b08030bf-1ef2-4626-81f6-c1cc66f6d9b4"
+					(reference "U6")
 					(unit 1)
 				)
 			)
