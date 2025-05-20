@@ -23,9 +23,8 @@ jobs:
           sudo apt install --install-recommends kicad
       
       - name: Run DRC
-        continue-on-error: true
         run: |
-          kicad-cli pcb drc --output=drc.rpt --exit-code-violations tuxkeychain.kicad_pcb
+          kicad-cli pcb drc --output=drc.rpt --exit-code-violations --severity-error tuxkeychain.kicad_pcb
           status=$?
           if [ $status -ne 0 ]; then
             echo "DRC failed with exit code $status"
@@ -35,6 +34,7 @@ jobs:
 
       - name: Upload DRC Report
         uses: actions/upload-artifact@v4
+        if: always()
         with:
           name: drc-report
           path: drc.rpt
@@ -53,9 +53,8 @@ jobs:
           sudo apt install --install-recommends kicad
       
       - name: Run ERC
-        continue-on-error: true
         run: |
-          kicad-cli sch erc --output=erc.rpt --exit-code-violations tuxkeychain.kicad_sch
+          kicad-cli sch erc --output=erc.rpt --exit-code-violations --severity-error tuxkeychain.kicad_sch
           status=$?
           if [ $status -ne 0 ]; then
             echo "ERC failed with exit code $status"
@@ -65,6 +64,7 @@ jobs:
 
       - name: Upload ERC Report
         uses: actions/upload-artifact@v4
+        if: always()
         with:
           name: erc-report
           path: erc.rpt
@@ -84,7 +84,7 @@ jobs:
 
       - name: Generate PDFs
         run: |
-          kicad-cli pcb export pdf --output=pcb.pdf tuxkeychain.kicad_pcb
+          kicad-cli pcb export pdf --output=pcb.pdf --layers=F.Cu,In1.Cu,In2.Cu,B.Cu,Edge.Cuts tuxkeychain.kicad_pcb
           kicad-cli sch export pdf --output=schematic.pdf tuxkeychain.kicad_sch
 
       - name: Upload PDFs
