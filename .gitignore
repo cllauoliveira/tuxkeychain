@@ -33,3 +33,7 @@ production/
 
 # backups
 *-backups/
+
+# lock files
+*.lck 
+*.lock
