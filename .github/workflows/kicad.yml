@@ -28,8 +28,16 @@ jobs:
           status=$?
           if [ $status -ne 0 ]; then
             echo "DRC failed with exit code $status"
-            cat drc.rpt
             exit $status
+          fi
+
+      - name: Cat DRC Report
+        if: always()
+        run: |
+          if [ -f drc.rpt ]; then
+            cat drc.rpt
+          else
+            echo "DRC report not found"
           fi
 
       - name: Upload DRC Report
@@ -58,8 +66,16 @@ jobs:
           status=$?
           if [ $status -ne 0 ]; then
             echo "ERC failed with exit code $status"
-            cat erc.rpt
             exit $status
+          fi
+
+      - name: Cat ERC Report
+        if: always()
+        run: |
+          if [ -f erc.rpt ]; then
+            cat erc.rpt
+          else
+            echo "ERC report not found"
           fi
 
       - name: Upload ERC Report
