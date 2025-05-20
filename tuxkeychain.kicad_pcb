@@ -9888,7 +9888,7 @@
 			(net 11 "Net-(J1-Shield)")
 			(pinfunction "Shield")
 			(pintype "passive")
-			(uuid "488a37a3-5501-4c77-8bb5-64639b1573fb")
+			(uuid "08512d68-2263-4713-98de-2bae8f936464")
 		)
 		(pad "6" smd rect
 			(at 1.15 0.129799 270)
@@ -9897,7 +9897,7 @@
 			(net 11 "Net-(J1-Shield)")
 			(pinfunction "Shield")
 			(pintype "passive")
-			(uuid "488a37a3-5501-4c77-8bb5-64639b1573fb")
+			(uuid "acbcbc92-e775-4069-a50c-0329cbfe7e36")
 		)
 		(pad "6" smd rect
 			(at 3.75 0.129799 270)
@@ -9906,7 +9906,7 @@
 			(net 11 "Net-(J1-Shield)")
 			(pinfunction "Shield")
 			(pintype "passive")
-			(uuid "488a37a3-5501-4c77-8bb5-64639b1573fb")
+			(uuid "a4d6032a-0ccd-4f5d-98cd-4cb489c72e1a")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/lib/10104111C.stp"
