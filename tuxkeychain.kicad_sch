@@ -2093,7 +2093,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_FET:Q_PMOS_GSD"
+		(symbol "Transistor_FET:Q_NMOS_GSD"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -2110,7 +2110,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "Q_PMOS_GSD"
+			(property "Value" "Q_NMOS_GSD"
 				(at 5.08 0 0)
 				(effects
 					(font
@@ -2137,7 +2137,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "P-MOSFET transistor, gate/source/drain"
+			(property "Description" "N-MOSFET transistor, gate/source/drain"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2146,7 +2146,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "transistor PMOS P-MOS P-MOSFET"
+			(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2155,7 +2155,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Q_PMOS_GSD_0_1"
+			(symbol "Q_NMOS_GSD_0_1"
 				(polyline
 					(pts
 						(xy 0.254 1.905) (xy 0.254 -1.905)
@@ -2194,18 +2194,6 @@
 				)
 				(polyline
 					(pts
-						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 0.762 0.508) (xy 0.762 -0.508)
 					)
 					(stroke
@@ -2228,6 +2216,30 @@
 						(type none)
 					)
 				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
 				(circle
 					(center 1.651 0)
 					(radius 2.794)
@@ -2237,18 +2249,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
 					)
 				)
 				(polyline
@@ -2299,7 +2299,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.921 -0.381) (xy 3.683 -0.381)
+						(xy 2.921 0.381) (xy 3.683 0.381)
 					)
 					(stroke
 						(width 0)
@@ -2311,7 +2311,7 @@
 				)
 				(polyline
 					(pts
-						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
 					)
 					(stroke
 						(width 0)
@@ -2322,7 +2322,7 @@
 					)
 				)
 			)
-			(symbol "Q_PMOS_GSD_1_1"
+			(symbol "Q_NMOS_GSD_1_1"
 				(pin input line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -2484,131 +2484,6 @@
 				)
 			)
 			(symbol "+1V1_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "power:+2V5"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+2V5"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+2V5\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+2V5_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+2V5_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -3186,6 +3061,131 @@
 				)
 			)
 			(symbol "VBUS_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "tuxkeychain:+2V6"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+2V6"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+2V6\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+2V6_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+2V6_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -5179,16 +5179,6 @@
 		)
 		(uuid "ed812560-014d-4489-8f65-b42e936772b8")
 	)
-	(text "actually 2.6v\nTODO: cry"
-		(exclude_from_sim no)
-		(at 86.995 55.245 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "f2abbdce-4d56-4cd0-af2f-0d99f6fa5ecd")
-	)
 	(junction
 		(at 77.47 38.1)
 		(diameter 0)
@@ -7089,6 +7079,26 @@
 			)
 		)
 	)
+	(global_label "STATUS"
+		(shape bidirectional)
+		(at 193.04 146.05 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5c2af4bb-e3aa-4045-a18e-a104ddb80e06")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 193.04 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SPI_MOSI"
 		(shape bidirectional)
 		(at 133.35 175.26 180)
@@ -7487,7 +7497,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:Q_PMOS_GSD")
+		(lib_id "Transistor_FET:Q_NMOS_GSD")
 		(at 179.07 146.05 0)
 		(mirror y)
 		(unit 1)
@@ -7506,7 +7516,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Q_PMOS_GSD"
+		(property "Value" "Q_NMOS_GSD"
 			(at 172.72 147.3199 0)
 			(effects
 				(font
@@ -7533,7 +7543,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "P-MOSFET transistor, gate/source/drain"
+		(property "Description" "N-MOSFET transistor, gate/source/drain"
 			(at 179.07 146.05 0)
 			(effects
 				(font
@@ -10774,7 +10784,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+2V5")
+		(lib_id "tuxkeychain:+2V6")
 		(at 50.8 125.73 0)
 		(mirror y)
 		(unit 1)
@@ -10783,7 +10793,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "80671011-72a4-4116-bf0a-907a3ba77059")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR8"
 			(at 50.8 129.54 0)
 			(effects
 				(font
@@ -10792,7 +10802,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+2V5"
+		(property "Value" "+2V6"
 			(at 46.99 124.46 0)
 			(effects
 				(font
@@ -10818,7 +10828,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+2V5\""
+		(property "Description" "Power symbol creates a global label with name \"+2V6\""
 			(at 50.8 125.73 0)
 			(effects
 				(font
@@ -10833,7 +10843,7 @@
 		(instances
 			(project "tuxkeychain"
 				(path "/b08030bf-1ef2-4626-81f6-c1cc66f6d9b4"
-					(reference "#PWR08")
+					(reference "#PWR8")
 					(unit 1)
 				)
 			)
@@ -10905,7 +10915,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+2V5")
+		(lib_id "tuxkeychain:+2V6")
 		(at 92.71 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10913,7 +10923,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "83f1f8d0-d7cb-4cdf-95b2-972ac48e1303")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR20"
 			(at 92.71 121.92 0)
 			(effects
 				(font
@@ -10922,7 +10932,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+2V5"
+		(property "Value" "+2V6"
 			(at 96.52 116.84 0)
 			(effects
 				(font
@@ -10948,7 +10958,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+2V5\""
+		(property "Description" "Power symbol creates a global label with name \"+2V6\""
 			(at 92.71 118.11 0)
 			(effects
 				(font
@@ -10963,7 +10973,7 @@
 		(instances
 			(project "tuxkeychain"
 				(path "/b08030bf-1ef2-4626-81f6-c1cc66f6d9b4"
-					(reference "#PWR020")
+					(reference "#PWR20")
 					(unit 1)
 				)
 			)
@@ -12800,7 +12810,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+2V5")
+		(lib_id "tuxkeychain:+2V6")
 		(at 77.47 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12809,7 +12819,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dee7669c-f0d4-49b8-b82b-7908534eacd6")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR17"
 			(at 77.47 60.96 0)
 			(effects
 				(font
@@ -12818,7 +12828,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+2V5"
+		(property "Value" "+2V6"
 			(at 77.47 52.07 0)
 			(effects
 				(font
@@ -12844,7 +12854,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+2V5\""
+		(property "Description" "Power symbol creates a global label with name \"+2V6\""
 			(at 77.47 57.15 0)
 			(effects
 				(font
@@ -12859,7 +12869,7 @@
 		(instances
 			(project ""
 				(path "/b08030bf-1ef2-4626-81f6-c1cc66f6d9b4"
-					(reference "#PWR017")
+					(reference "#PWR17")
 					(unit 1)
 				)
 			)
