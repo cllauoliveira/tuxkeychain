@@ -17,3 +17,9 @@ The Allwinner F1C100s footprint/symbol is from https://github.com/thirtythreefor
 Same for the JW5211 symbol and footprint.
 
 Schematic heavily based on the business card design by thirtythreeforty (https://www.thirtythreeforty.net/posts/2019/12/my-business-card-runs-linux/businesscard.pdf).
+
+## Images
+|PCB|Schematic|
+|---|---|
+|![PCB Front](images/pcbf.png)|![Schematic](images/schematic.png)|
+|![PCB Back](images/pcbb.png)|-|  

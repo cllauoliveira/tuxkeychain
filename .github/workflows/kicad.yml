@@ -100,7 +100,7 @@ jobs:
 
       - name: Generate PDFs
         run: |
-          kicad-cli pcb export pdf --output=pcb.pdf --layers=F.Cu,In1.Cu,In2.Cu,B.Cu,Edge.Cuts tuxkeychain.kicad_pcb
+          kicad-cli pcb export pdf --output=pcb.pdf --layers=F.Cu,In1.Cu,In2.Cu,B.Cu,Edge.Cuts,F.Silkscreen,B.Silkscreen tuxkeychain.kicad_pcb
           kicad-cli sch export pdf --output=schematic.pdf tuxkeychain.kicad_sch
 
       - name: Upload PDFs
