@@ -13666,7 +13666,7 @@
 				)
 			)
 		)
-		(property "Value" "Amphenol_10104110"
+		(property "Value" "Amphenol_10104111"
 			(at 33.02 157.48 0)
 			(effects
 				(font
@@ -13674,7 +13674,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_Micro-B_Amphenol_10104110_Horizontal"
+		(property "Footprint" "tuxkeychain:CONN_10104111-0001LF_AMP"
 			(at 36.83 168.91 0)
 			(effects
 				(font
