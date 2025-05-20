@@ -9746,7 +9746,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "AT25SF081-SSHD-X"
+		(property "Value" "AT25SF081B-SSHD-T"
 			(at 154.94 179.0699 0)
 			(effects
 				(font
@@ -13642,7 +13642,7 @@
 				)
 			)
 		)
-		(property "Value" "USB_B_Micro"
+		(property "Value" "Amphenol_10104110"
 			(at 33.02 157.48 0)
 			(effects
 				(font
