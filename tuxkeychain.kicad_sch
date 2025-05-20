@@ -7359,7 +7359,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0035ff8f-ed2e-473c-86fa-375a84a9d5b7")
-		(property "Reference" "C7"
+		(property "Reference" "C18"
 			(at 270.51 39.37 90)
 			(effects
 				(font
@@ -7411,7 +7411,7 @@
 		(instances
 			(project "tuxkeychain"
 				(path "/b08030bf-1ef2-4626-81f6-c1cc66f6d9b4"
-					(reference "C7")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -7569,7 +7569,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "05d79623-8977-4c0a-a875-b0619c5d2fe8")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR022"
 			(at 101.6 129.54 0)
 			(effects
 				(font
@@ -7619,7 +7619,7 @@
 		(instances
 			(project ""
 				(path "/b08030bf-1ef2-4626-81f6-c1cc66f6d9b4"
-					(reference "#PWR020")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -7634,7 +7634,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "061f08b6-38c5-4f70-854a-4dcb4e6f2acd")
-		(property "Reference" "C4"
+		(property "Reference" "C10"
 			(at 80.01 66.04 0)
 			(effects
 				(font
@@ -7688,7 +7688,7 @@
 		(instances
 			(project "tuxkeychain"
 				(path "/b08030bf-1ef2-4626-81f6-c1cc66f6d9b4"
-					(reference "C4")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -7837,7 +7837,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e6161e3-7d15-4d24-8ce0-77d656c1e81b")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR013"
 			(at 55.88 97.79 0)
 			(effects
 				(font
@@ -7887,7 +7887,7 @@
 		(instances
 			(project "tuxkeychain"
 				(path "/b08030bf-1ef2-4626-81f6-c1cc66f6d9b4"
-					(reference "#PWR09")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -7970,7 +7970,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "12e5756f-9d2f-497d-b2a1-f226f8c1cf0f")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR030"
 			(at 223.52 162.56 0)
 			(effects
 				(font
@@ -8020,7 +8020,7 @@
 		(instances
 			(project "tuxkeychain"
 				(path "/b08030bf-1ef2-4626-81f6-c1cc66f6d9b4"
-					(reference "#PWR031")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -8103,7 +8103,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "16ff4858-e15c-4c0d-961f-04adc62e6e39")
-		(property "Reference" "C6"
+		(property "Reference" "C17"
 			(at 270.51 16.51 90)
 			(effects
 				(font
@@ -8155,7 +8155,7 @@
 		(instances
 			(project ""
 				(path "/b08030bf-1ef2-4626-81f6-c1cc66f6d9b4"
-					(reference "C6")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -8241,7 +8241,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1954cdec-a027-483a-8518-9809905edb05")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR09"
 			(at 52.07 111.76 0)
 			(effects
 				(font
@@ -8291,7 +8291,7 @@
 		(instances
 			(project "tuxkeychain"
 				(path "/b08030bf-1ef2-4626-81f6-c1cc66f6d9b4"
-					(reference "#PWR024")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -8376,7 +8376,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c79eeeb-9a27-484e-b199-de3af95b634d")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR019"
 			(at 92.71 111.76 0)
 			(effects
 				(font
@@ -8426,7 +8426,7 @@
 		(instances
 			(project "tuxkeychain"
 				(path "/b08030bf-1ef2-4626-81f6-c1cc66f6d9b4"
-					(reference "#PWR023")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -8509,7 +8509,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "30c67737-52a9-41a8-bed1-ba817bf9f9fe")
-		(property "Reference" "U1"
+		(property "Reference" "U4"
 			(at 72.39 101.6 0)
 			(effects
 				(font
@@ -8822,7 +8822,7 @@
 		(instances
 			(project ""
 				(path "/b08030bf-1ef2-4626-81f6-c1cc66f6d9b4"
-					(reference "U1")
+					(reference "U4")
 					(unit 2)
 				)
 			)
@@ -8838,7 +8838,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3106b593-b724-495d-97a5-8db0222323ea")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR010"
 			(at 57.15 21.59 0)
 			(effects
 				(font
@@ -8889,7 +8889,7 @@
 		(instances
 			(project "tuxkeychain"
 				(path "/b08030bf-1ef2-4626-81f6-c1cc66f6d9b4"
-					(reference "#PWR06")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -8904,7 +8904,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "31874fcc-30d2-465d-b357-74000c22bb09")
-		(property "Reference" "C10"
+		(property "Reference" "C14"
 			(at 104.14 114.3 90)
 			(effects
 				(font
@@ -8958,7 +8958,7 @@
 		(instances
 			(project "tuxkeychain"
 				(path "/b08030bf-1ef2-4626-81f6-c1cc66f6d9b4"
-					(reference "C10")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -9043,7 +9043,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3778da8a-bf2d-42c7-9378-09cb504e1add")
-		(property "Reference" "C11"
+		(property "Reference" "C13"
 			(at 104.14 111.76 90)
 			(effects
 				(font
@@ -9097,7 +9097,7 @@
 		(instances
 			(project "tuxkeychain"
 				(path "/b08030bf-1ef2-4626-81f6-c1cc66f6d9b4"
-					(reference "C11")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -9183,7 +9183,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "404a144d-c6b0-49dc-b0c2-1c4da379a120")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR025"
 			(at 146.05 168.91 0)
 			(effects
 				(font
@@ -9233,7 +9233,7 @@
 		(instances
 			(project "tuxkeychain"
 				(path "/b08030bf-1ef2-4626-81f6-c1cc66f6d9b4"
-					(reference "#PWR032")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -9249,7 +9249,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "41f698f2-a0b6-45a4-a576-f50b97d3b722")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR035"
 			(at 276.86 34.29 0)
 			(effects
 				(font
@@ -9299,7 +9299,7 @@
 		(instances
 			(project "tuxkeychain"
 				(path "/b08030bf-1ef2-4626-81f6-c1cc66f6d9b4"
-					(reference "#PWR018")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -9315,7 +9315,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "44992697-b9b0-44e2-85ec-f051b1fad4f7")
-		(property "Reference" "R11"
+		(property "Reference" "R12"
 			(at 226.06 140.9699 0)
 			(effects
 				(font
@@ -9369,7 +9369,7 @@
 		(instances
 			(project "tuxkeychain"
 				(path "/b08030bf-1ef2-4626-81f6-c1cc66f6d9b4"
-					(reference "R11")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -9452,7 +9452,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4b1e8e05-5cc6-4def-aee9-1cd543ddc0a5")
-		(property "Reference" "C14"
+		(property "Reference" "C4"
 			(at 40.64 111.76 90)
 			(effects
 				(font
@@ -9506,7 +9506,7 @@
 		(instances
 			(project "tuxkeychain"
 				(path "/b08030bf-1ef2-4626-81f6-c1cc66f6d9b4"
-					(reference "C14")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -9521,7 +9521,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4fbd4434-e333-4e9d-9770-1c4fb60d68f6")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR033"
 			(at 254 132.08 0)
 			(effects
 				(font
@@ -9571,7 +9571,7 @@
 		(instances
 			(project ""
 				(path "/b08030bf-1ef2-4626-81f6-c1cc66f6d9b4"
-					(reference "#PWR016")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -9815,7 +9815,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "593e894e-0056-42ba-bea7-0176027c58d2")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR015"
 			(at 69.85 148.59 0)
 			(effects
 				(font
@@ -9865,7 +9865,7 @@
 		(instances
 			(project "tuxkeychain"
 				(path "/b08030bf-1ef2-4626-81f6-c1cc66f6d9b4"
-					(reference "#PWR019")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -9880,7 +9880,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5dab8de4-71d2-4878-a15f-0bfeeaab7cec")
-		(property "Reference" "C16"
+		(property "Reference" "C6"
 			(at 40.64 116.84 90)
 			(effects
 				(font
@@ -9934,7 +9934,7 @@
 		(instances
 			(project "tuxkeychain"
 				(path "/b08030bf-1ef2-4626-81f6-c1cc66f6d9b4"
-					(reference "C16")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -9949,7 +9949,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5e7b0e2e-7be2-4baa-8ae9-706b09e4571b")
-		(property "Reference" "C13"
+		(property "Reference" "C3"
 			(at 40.64 109.22 90)
 			(effects
 				(font
@@ -10003,7 +10003,7 @@
 		(instances
 			(project "tuxkeychain"
 				(path "/b08030bf-1ef2-4626-81f6-c1cc66f6d9b4"
-					(reference "C13")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -10019,7 +10019,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6214d0f1-5e7f-4169-8988-ca30aefa1ff0")
-		(property "Reference" "R12"
+		(property "Reference" "R9"
 			(at 132.08 165.0999 0)
 			(effects
 				(font
@@ -10073,7 +10073,7 @@
 		(instances
 			(project "tuxkeychain"
 				(path "/b08030bf-1ef2-4626-81f6-c1cc66f6d9b4"
-					(reference "R12")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -10156,7 +10156,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "642740c1-3fff-4848-992d-0724bd3d15f1")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR018"
 			(at 77.47 82.55 0)
 			(effects
 				(font
@@ -10206,7 +10206,7 @@
 		(instances
 			(project ""
 				(path "/b08030bf-1ef2-4626-81f6-c1cc66f6d9b4"
-					(reference "#PWR013")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -10291,7 +10291,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "699e6f0c-5923-4073-a194-90282d530770")
-		(property "Reference" "R10"
+		(property "Reference" "R11"
 			(at 204.47 140.9699 0)
 			(effects
 				(font
@@ -10345,7 +10345,7 @@
 		(instances
 			(project "tuxkeychain"
 				(path "/b08030bf-1ef2-4626-81f6-c1cc66f6d9b4"
-					(reference "R10")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -10437,7 +10437,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6c76d829-c420-43ab-a9bc-c3c352b148e8")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR016"
 			(at 77.47 36.83 0)
 			(effects
 				(font
@@ -10487,7 +10487,7 @@
 		(instances
 			(project ""
 				(path "/b08030bf-1ef2-4626-81f6-c1cc66f6d9b4"
-					(reference "#PWR011")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -10502,7 +10502,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "70eb4ea5-c799-466e-b48f-c6018cb13a55")
-		(property "Reference" "U2"
+		(property "Reference" "U1"
 			(at 49.53 31.75 0)
 			(effects
 				(font
@@ -10563,7 +10563,7 @@
 		(instances
 			(project ""
 				(path "/b08030bf-1ef2-4626-81f6-c1cc66f6d9b4"
-					(reference "U2")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -10647,7 +10647,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "79329d5a-b140-48b5-b307-840f3aff9c6d")
-		(property "Reference" "C18"
+		(property "Reference" "C8"
 			(at 40.64 127 90)
 			(effects
 				(font
@@ -10701,7 +10701,7 @@
 		(instances
 			(project "tuxkeychain"
 				(path "/b08030bf-1ef2-4626-81f6-c1cc66f6d9b4"
-					(reference "C18")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -10717,7 +10717,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7bec8526-4c18-424c-953e-b02f0bdc730b")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR028"
 			(at 201.93 140.97 0)
 			(effects
 				(font
@@ -10767,7 +10767,7 @@
 		(instances
 			(project "tuxkeychain"
 				(path "/b08030bf-1ef2-4626-81f6-c1cc66f6d9b4"
-					(reference "#PWR029")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -10783,7 +10783,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "80671011-72a4-4116-bf0a-907a3ba77059")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR08"
 			(at 50.8 129.54 0)
 			(effects
 				(font
@@ -10833,7 +10833,7 @@
 		(instances
 			(project "tuxkeychain"
 				(path "/b08030bf-1ef2-4626-81f6-c1cc66f6d9b4"
-					(reference "#PWR027")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -10848,7 +10848,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "81a99eab-a096-42b2-ad38-b5a06eaa2cd0")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR06"
 			(at 43.18 120.65 0)
 			(effects
 				(font
@@ -10898,7 +10898,7 @@
 		(instances
 			(project "tuxkeychain"
 				(path "/b08030bf-1ef2-4626-81f6-c1cc66f6d9b4"
-					(reference "#PWR025")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -10913,7 +10913,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "83f1f8d0-d7cb-4cdf-95b2-972ac48e1303")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR020"
 			(at 92.71 121.92 0)
 			(effects
 				(font
@@ -10963,7 +10963,7 @@
 		(instances
 			(project "tuxkeychain"
 				(path "/b08030bf-1ef2-4626-81f6-c1cc66f6d9b4"
-					(reference "#PWR021")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -10979,7 +10979,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "846660b3-2c29-49b5-af24-889977a7ace0")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR011"
 			(at 55.88 52.07 0)
 			(effects
 				(font
@@ -11029,7 +11029,7 @@
 		(instances
 			(project ""
 				(path "/b08030bf-1ef2-4626-81f6-c1cc66f6d9b4"
-					(reference "#PWR07")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -11111,7 +11111,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8ea417d6-ef93-4808-8c3b-ab7500678ef9")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR032"
 			(at 254 119.38 0)
 			(effects
 				(font
@@ -11161,7 +11161,7 @@
 		(instances
 			(project "tuxkeychain"
 				(path "/b08030bf-1ef2-4626-81f6-c1cc66f6d9b4"
-					(reference "#PWR015")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -11312,7 +11312,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "95695578-f9ad-4414-8fa3-59ee67a925ab")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR029"
 			(at 223.52 142.24 0)
 			(effects
 				(font
@@ -11362,7 +11362,7 @@
 		(instances
 			(project "tuxkeychain"
 				(path "/b08030bf-1ef2-4626-81f6-c1cc66f6d9b4"
-					(reference "#PWR030")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -11378,7 +11378,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a06cb73f-ef4d-48e6-956b-a4d8bc78821d")
-		(property "Reference" "U1"
+		(property "Reference" "U4"
 			(at 195.58 21.59 0)
 			(effects
 				(font
@@ -11691,7 +11691,7 @@
 		(instances
 			(project ""
 				(path "/b08030bf-1ef2-4626-81f6-c1cc66f6d9b4"
-					(reference "U1")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -11706,7 +11706,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a0a6d974-3d65-497f-9b97-8a6474817898")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR034"
 			(at 257.81 34.29 0)
 			(effects
 				(font
@@ -11756,7 +11756,7 @@
 		(instances
 			(project "tuxkeychain"
 				(path "/b08030bf-1ef2-4626-81f6-c1cc66f6d9b4"
-					(reference "#PWR017")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -11771,7 +11771,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a284c33b-4c3c-473c-bfd9-b3590c583259")
-		(property "Reference" "C17"
+		(property "Reference" "C7"
 			(at 40.64 119.38 90)
 			(effects
 				(font
@@ -11825,7 +11825,7 @@
 		(instances
 			(project "tuxkeychain"
 				(path "/b08030bf-1ef2-4626-81f6-c1cc66f6d9b4"
-					(reference "C17")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -11841,7 +11841,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a684a05b-5fd1-4bbc-b701-87dadbf24529")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR027"
 			(at 176.53 157.48 0)
 			(effects
 				(font
@@ -11891,7 +11891,7 @@
 		(instances
 			(project "tuxkeychain"
 				(path "/b08030bf-1ef2-4626-81f6-c1cc66f6d9b4"
-					(reference "#PWR028")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -12046,7 +12046,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ad52d3ec-70fa-4f55-850c-bd866ecf8386")
-		(property "Reference" "U4"
+		(property "Reference" "U3"
 			(at 49.53 77.47 0)
 			(effects
 				(font
@@ -12107,7 +12107,7 @@
 		(instances
 			(project "tuxkeychain"
 				(path "/b08030bf-1ef2-4626-81f6-c1cc66f6d9b4"
-					(reference "U4")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -12191,7 +12191,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b145b789-e4c7-401a-a95e-8d69dee1285c")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR031"
 			(at 254 109.22 0)
 			(effects
 				(font
@@ -12241,7 +12241,7 @@
 		(instances
 			(project "tuxkeychain"
 				(path "/b08030bf-1ef2-4626-81f6-c1cc66f6d9b4"
-					(reference "#PWR014")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -12257,7 +12257,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b522a4b0-1646-48bf-9839-cadb9795fae7")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR021"
 			(at 101.6 118.11 0)
 			(effects
 				(font
@@ -12307,7 +12307,7 @@
 		(instances
 			(project "tuxkeychain"
 				(path "/b08030bf-1ef2-4626-81f6-c1cc66f6d9b4"
-					(reference "#PWR022")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -12322,7 +12322,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bd8eb929-2100-40d4-9d19-86de99019d32")
-		(property "Reference" "U3"
+		(property "Reference" "U2"
 			(at 49.53 55.88 0)
 			(effects
 				(font
@@ -12383,7 +12383,7 @@
 		(instances
 			(project "tuxkeychain"
 				(path "/b08030bf-1ef2-4626-81f6-c1cc66f6d9b4"
-					(reference "U3")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -12399,7 +12399,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c4081c3e-caef-4f4d-9ff8-3a1f8d993e40")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR023"
 			(at 133.35 186.69 0)
 			(effects
 				(font
@@ -12449,7 +12449,7 @@
 		(instances
 			(project "tuxkeychain"
 				(path "/b08030bf-1ef2-4626-81f6-c1cc66f6d9b4"
-					(reference "#PWR034")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -12464,7 +12464,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c79d8618-424d-4e61-80b4-185df9aba40c")
-		(property "Reference" "C3"
+		(property "Reference" "C9"
 			(at 80.01 41.91 0)
 			(effects
 				(font
@@ -12518,7 +12518,7 @@
 		(instances
 			(project ""
 				(path "/b08030bf-1ef2-4626-81f6-c1cc66f6d9b4"
-					(reference "C3")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -12604,7 +12604,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d0bafe06-fa2d-463d-b0e8-252acdb7b4a5")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR014"
 			(at 64.77 21.59 0)
 			(effects
 				(font
@@ -12655,7 +12655,7 @@
 		(instances
 			(project ""
 				(path "/b08030bf-1ef2-4626-81f6-c1cc66f6d9b4"
-					(reference "#PWR010")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -12741,7 +12741,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d4b56786-e657-4aff-b5ac-af59958176b5")
-		(property "Reference" "R9"
+		(property "Reference" "R10"
 			(at 184.15 132.08 90)
 			(effects
 				(font
@@ -12793,7 +12793,7 @@
 		(instances
 			(project ""
 				(path "/b08030bf-1ef2-4626-81f6-c1cc66f6d9b4"
-					(reference "R9")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -12809,7 +12809,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dee7669c-f0d4-49b8-b82b-7908534eacd6")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR017"
 			(at 77.47 60.96 0)
 			(effects
 				(font
@@ -12859,7 +12859,7 @@
 		(instances
 			(project ""
 				(path "/b08030bf-1ef2-4626-81f6-c1cc66f6d9b4"
-					(reference "#PWR012")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -12875,7 +12875,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "df46cf9a-feda-4343-a1a7-d2945fffbb10")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR024"
 			(at 134.62 166.37 0)
 			(effects
 				(font
@@ -12925,7 +12925,7 @@
 		(instances
 			(project "tuxkeychain"
 				(path "/b08030bf-1ef2-4626-81f6-c1cc66f6d9b4"
-					(reference "#PWR035")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -12940,7 +12940,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "df681d39-891f-45fa-af9b-0927834cad19")
-		(property "Reference" "C15"
+		(property "Reference" "C5"
 			(at 40.64 114.3 90)
 			(effects
 				(font
@@ -12994,7 +12994,7 @@
 		(instances
 			(project "tuxkeychain"
 				(path "/b08030bf-1ef2-4626-81f6-c1cc66f6d9b4"
-					(reference "C15")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -13009,7 +13009,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e19de41f-c8ec-45c2-9cdf-c0500824ac43")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR07"
 			(at 43.18 133.35 0)
 			(effects
 				(font
@@ -13059,7 +13059,7 @@
 		(instances
 			(project "tuxkeychain"
 				(path "/b08030bf-1ef2-4626-81f6-c1cc66f6d9b4"
-					(reference "#PWR026")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -13074,7 +13074,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e6911892-e04d-4510-8d1f-c610bef79449")
-		(property "Reference" "C8"
+		(property "Reference" "C16"
 			(at 104.14 127 90)
 			(effects
 				(font
@@ -13128,7 +13128,7 @@
 		(instances
 			(project ""
 				(path "/b08030bf-1ef2-4626-81f6-c1cc66f6d9b4"
-					(reference "C8")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -13281,7 +13281,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f1d12c69-7ea4-4971-9fae-2f3449848607")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR012"
 			(at 55.88 76.2 0)
 			(effects
 				(font
@@ -13331,7 +13331,7 @@
 		(instances
 			(project "tuxkeychain"
 				(path "/b08030bf-1ef2-4626-81f6-c1cc66f6d9b4"
-					(reference "#PWR08")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -13346,7 +13346,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f618d61b-4a67-4bf0-84d0-f98079914302")
-		(property "Reference" "C5"
+		(property "Reference" "C11"
 			(at 80.01 87.63 0)
 			(effects
 				(font
@@ -13400,7 +13400,7 @@
 		(instances
 			(project "tuxkeychain"
 				(path "/b08030bf-1ef2-4626-81f6-c1cc66f6d9b4"
-					(reference "C5")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -13488,7 +13488,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f8e13e88-fa75-4f99-bc48-951c44061f79")
-		(property "Reference" "C9"
+		(property "Reference" "C15"
 			(at 104.14 119.38 90)
 			(effects
 				(font
@@ -13542,7 +13542,7 @@
 		(instances
 			(project "tuxkeychain"
 				(path "/b08030bf-1ef2-4626-81f6-c1cc66f6d9b4"
-					(reference "C9")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -13558,7 +13558,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f9b3447b-dda6-40db-8c51-62de3e0369eb")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR026"
 			(at 146.05 196.85 0)
 			(effects
 				(font
@@ -13608,7 +13608,7 @@
 		(instances
 			(project "tuxkeychain"
 				(path "/b08030bf-1ef2-4626-81f6-c1cc66f6d9b4"
-					(reference "#PWR033")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
