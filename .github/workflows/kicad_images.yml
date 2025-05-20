@@ -23,7 +23,7 @@ jobs:
         run: |
           sudo add-apt-repository --yes ppa:kicad/kicad-9.0-releases
           sudo apt update
-          sudo apt install --install-recommends kicad poppler
+          sudo apt install --install-recommends kicad poppler-utils
 
       - name: Generate Images
         run: |
