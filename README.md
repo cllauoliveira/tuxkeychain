@@ -18,6 +18,8 @@ Same for the JW5211 symbol and footprint.
 
 Schematic heavily based on the business card design by thirtythreeforty (https://www.thirtythreeforty.net/posts/2019/12/my-business-card-runs-linux/businesscard.pdf).
 
+Tux attribution: [lewing@isc.tamu.edu](https://isc.tamu.edu/~lewing/linux/) (Larry Ewing) and [The GIMP](https://www.gimp.org/).
+
 ## Images
 |PCB|Schematic|
 |---|---|
