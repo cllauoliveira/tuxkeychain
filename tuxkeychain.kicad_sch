@@ -5090,7 +5090,7 @@
 		)
 		(uuid "2f98201d-fa45-4e0c-ab89-e4aca67f026d")
 	)
-	(text "TODO: remove this..?\nTODO: decide if i should remove this"
+	(text "in the spirit of blinkenlights,\nthis will not be removed"
 		(exclude_from_sim no)
 		(at 157.48 137.795 0)
 		(effects
@@ -5102,7 +5102,7 @@
 	)
 	(text "TODO: add a unsoldered SMT header for hacking potential"
 		(exclude_from_sim no)
-		(at 247.015 164.465 0)
+		(at 253.365 163.83 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5129,16 +5129,6 @@
 			)
 		)
 		(uuid "4679f9fa-8bbc-4328-8936-08653d37861e")
-	)
-	(text "we probably\ndon't need jtag"
-		(exclude_from_sim no)
-		(at 271.78 75.565 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "479a2a0c-a81a-4bd0-ab76-8a85c622aeda")
 	)
 	(text "crystal that we use: CF4024M00012001"
 		(exclude_from_sim no)
