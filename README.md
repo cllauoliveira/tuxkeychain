@@ -21,6 +21,9 @@ Schematic heavily based on the business card design by thirtythreeforty (https:/
 Tux attribution: [lewing@isc.tamu.edu](https://isc.tamu.edu/~lewing/linux/) (Larry Ewing) and [The GIMP](https://www.gimp.org/).
 
 ## Images
+> [!NOTE]
+> These are auto-generated and will always be up to date (GitHub cache may make them seem out of date)
+
 |PCB|Schematic|
 |---|---|
 |![PCB Front](images/pcbf.png)|![Schematic](images/schematic.png)|
